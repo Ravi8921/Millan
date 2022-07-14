@@ -1,0 +1,86 @@
+@media (min-width: 320px) and (max-width: 768px) {}
+
+header .navLogin .loginbtn {
+    display: inline-block;
+    vertical-align: middle;
+    width: 44px;
+    height: 44px;
+    color: #fff;
+    font-size: 0;
+    background: none;
+    padding-right: 0;
+    -webkit-transition: none;
+    transition: none;
+}
+
+.newSchemeBtn {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    padding: 0 5px;
+    width: 100%;
+    text-align: center;
+    background-color: #FF0000;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .newSchemeBtn .btn {
+        display: inline-block;
+        height: 30px;
+        line-height: 28px;
+        padding: 0 5px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .newSchemeBtn .btn {
+        margin: 0 6px 8px 0;
+    }
+
+    .newSchemeBtn .btn {
+        height: 38px;
+        line-height: 38px;
+        font-size: 11px;
+        margin: 0 6px 0 0;
+        vertical-align: top;
+    }
+
+    .redColor {
+        background: #FF0000;
+        color: #fff;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .newSchemeBtn .btn {
+        font-size: 15px;
+        padding: 0 15px;
+        height: 40px;
+        line-height: 40px;
+        margin: 0 10px 0 0;
+        text-align: center;
+    }
+}
+
+.blueColor {
+    background: #40a6d9;
+    color: #fff;
+}
+
+.newSchemeBtn {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    padding: 0 5px;
+    width: 100%;
+    text-align: center;
+}
+
+.nav-link {
+    background-color: #FF0000;
+}
+
+.nav-item {
+    background-color: aqua;
+}

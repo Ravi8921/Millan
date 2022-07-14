@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+
+.bodies {
+    font-family: "Poppins", sans-serif;
+
+
+}
+
+@media (min-width: 768px) {
+    .simplePopup {
+        width: 50%;
+        min-width: 50%;
+        left: 50%;
+
+    }
+}
+
+.loginTestPopup {
+    display: block;
+    background-color: #333;
+    color: white;
+    margin-top: -18px;
+    padding: 10px;
+    width: 100%;
+    margin-left: -20px;
+}
+
+.simplePopup {
+    /* display: none; */
+    position: fixed;
+    background: #fff;
+    z-index: 9;
+    color: #414141;
+    padding: 20px;
+    box-shadow: 0 2px 2px 2px rgb(0 0 0 / 10%);
+    border-radius: 8px;
+    left: 50%;
+    top: 50% !important;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+
+}
+
+.simplePopupClose {
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 6px;
+    position: absolute;
+    cursor: pointer;
+    top: 2px;
+    right: 1px;
+    width: 41px;
+    height: 46px;
+    color: #ffcc00;
+    background-color: rgb(230, 21, 21);
+}
+
+.simplePopupClose1 {
+    font-size: 25px;
+    font-weight: bold;
+   
+    padding: 6px;
+    position: absolute;
+    cursor: pointer;
+    top: 2px;
+    right: 1px;
+    width: 41px;
+    height: 40px;
+   border-radius: 50%;
+    background-color: rgb(236, 53, 29);
+}
+.grayColor {
+    background: #333;
+    color: #fff;
+    padding-left: 10px;
+}
+
+
+
+#btnSendPwd {
+
+    margin-right: 5px;
+}

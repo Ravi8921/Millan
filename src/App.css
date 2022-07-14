@@ -1,0 +1,52 @@
+.colors{
+    background-attachment: fixed;
+   
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(37, 15, 206));
+}
+.margin{
+    margin-right: 20px;
+   
+}
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+  }
+
+  .affix + .container-fluid {
+    padding-top: 70px;
+  }
+  
+
+  .fa {
+    padding: 10px;
+    font-size: 10px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    justify-content: center;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+.bodysssss {
+    color: #000;
+}

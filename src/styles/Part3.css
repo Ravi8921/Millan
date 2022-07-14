@@ -1,0 +1,394 @@
+.prodDesc {
+    left: 20px;
+    width: calc(100% - 100px);
+}
+
+.prodImg {
+    text-align: center;
+    background: #D5D5D5;
+    min-width: 300px;
+    min-height: 135px;
+}
+
+.prodImg:hover img {
+    filter: grayscale(100%);
+    transform: scale();
+}
+
+.lazy-loaded,
+.prodDetailPage .supplementTab .transformer-tabs a:hover {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+
+
+
+
+
+::-webkit-scrollbar {
+    width: 7px;
+    background-color: transparent;
+}
+
+
+
+
+@media (min-width: 320px) {
+    .prodDesc p {
+        font-size: 20px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        bottom: 10px;
+    }
+
+}
+
+.prodDesc p {
+    font-size: 18px;
+    color: rgb(135 203 45);
+    font-weight: 400;
+}
+
+.aboutSection p,
+.companyPage .staffBox p,
+.prodDesc p,
+.reachoutSection p {
+    font-family: FuturaStd, sans-serif;
+}
+
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+a:-webkit-any-link {
+
+    cursor: pointer;
+}
+
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:-webkit-scrollbar {
+    width: 6px;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 2px;
+    background-color: #ccc;
+}
+
+::selection {
+    color: #fff;
+    background: #58c4eb;
+}
+
+.aboutSection h3,
+.aboutSection p,
+.brandSection>.brandssecWrap,
+.brandsimgWrap,
+
+.prodSec .goBtn {
+    text-align: center;
+}
+
+.brandSection h2 {
+    color: #333;
+}
+
+
+.title {
+    font-size: 40px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.clearfix:before,
+.clearfix:after,
+.container:before,
+.container:after,
+.container-fluid:before,
+.container-fluid:after,
+.row:before,
+.row:after {
+    content: " ";
+    display: table;
+}
+
+
+.p {
+    display: flex;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+    margin-left: 100px;
+}
+
+
+.prodImg img {
+    max-width: 103%;
+    max-height: 200%;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+
+}
+
+@media (min-width: 320px) {
+    .prodDesc h2 {
+        font-size: 14px;
+    }
+}
+
+.prodDesc h2 {
+    font-size: 18px;
+    color: #0dcaf0;
+    text-align: left;
+    padding: 0;
+    font-weight: 400;
+}
+
+
+@media (min-width: 320px) {
+    .prodDesc p {
+        font-size: 12px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+
+.p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.prodSec .goBtn {
+    right: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+.title1 {
+    font-size: 20px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .aboutSection {
+        padding: 40px 0 40px 0;
+    }
+}
+
+.aboutSection {
+    position: relative;
+    margin: 10px 0 0;
+width: 100%;
+
+    background-size: cover;
+    padding: 0px 20px 30px;
+   
+}
+
+
+
+@media (min-width: 1024px) {
+    .col-md-offset-2 {
+        margin-left: 16.66666667%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .col-md-8 {
+        width: 66.66666667%;
+    }
+}
+
+
+@media (min-width: 1024px) {
+    .aboutSection h2 {
+        margin: 0 0 20px 0;
+    }
+}
+
+
+.aboutSection h2 {
+    margin: 0 0 10px;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Oswald:wght@600&family=Tinos&family=Yanone+Kaffeesatz:wght@300&display=swap');
+
+body {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+    line-height: 1.42857143;
+
+}
+
+.clearfix:before,
+.clearfix:after,
+.container:before,
+.container:after,
+.container-fluid:before,
+.container-fluid:after,
+.row:before,
+.row:after {
+    content: " ";
+    display: table;
+}
+
+
+@media (min-width: 768px) {
+
+    .aboutSection p,
+    .reachoutSection h3,
+    .reachoutSection p,
+    .reachoutSection a {
+        font-size: 16px;
+    }
+
+}
+
+.aboutSection p {
+  margin: 10px;
+    font-weight: 400;
+    font-size: 15px;
+    margin: 0 0 20px;
+    opacity: .8;
+    filter: alpha(opacity=80);
+}
+
+.aboutSection h2,
+.aboutSection h3,
+.aboutSection p {
+    color: #fff;
+}
+
+
+
+
+@media (min-width: 768px) {
+    .title {
+        font-size: 28px;
+    }
+}
+
+.title {
+    font-size: 40px;
+    padding: 10px 0;
+    text-align: center;
+    font-weight: bold;
+    /* background-color: rgb(193, 180, 228); */
+}
+
+
+
+.btn,
+.itemDetail h2,
+.loginForm h2,
+.loginForm ul li label,
+.title,
+b,
+footer a,
+footer small {
+    font-weight: 400;
+}
+
+.lazy-loaded,
+.prodDetailPage .supplementTab .transformer-tabs a:hover {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+
+.buttonn {
+    background-color: rgb(214, 33, 33);
+}
+
+
+.buttonn {
+    background-image: linear-gradient(to right, #4fc937 0%, #bfe9ff 51%, #ff6e7f 100%);
+    margin: 2px;
+    padding: 10px 4px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.buttonn:hover {
+    background-position: right center;
+
+    color: rgb(209, 34, 34);
+    background-color: #4fc937;
+    transition: 0.5s;
+    text-decoration: none;
+    border-radius: 12px;
+}
+
+.about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+    position: relative;
+    margin: 100px 0 0;
+    background-color: #d7663c;
+    background-size: cover;
+    padding: 10px 20px 30px;
+   
+}
+
+
+.carddd {
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

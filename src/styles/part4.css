@@ -1,0 +1,262 @@
+@media (min-width: 768px) {
+    .col-sm-4 {
+        width: 33.33333333%;
+    }
+}
+
+.reachoutSection ul li {
+    margin-bottom: 16px;
+}
+
+@media (min-width: 768px) {
+    .newSchemeBtn .btn {
+        font-size: 15px;
+        padding: 0 15px;
+        height: 40px;
+        line-height: 40px;
+        margin: 0 10px 0 0;
+        text-align: center;
+    }
+
+}
+
+.newSchemeBtn .btn {
+    height: 38px;
+    line-height: 38px;
+    font-size: 11px;
+    margin: 0 6px 0 0;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+
+.redColor {
+    background: #FF0000;
+    color: #fff;
+}
+
+.aboutSection h3,
+.btn,
+.cd-tabs-navigation a,
+.companyPage .directorBox h3,
+.companyPage .staffBox h3,
+.companyPage .staffBox h4,
+.itemDetail h2,
+.loginForm h2,
+.loginForm ul li label,
+.navBar li a,
+.newsPage h3,
+.prodDesc h2,
+.productPage .prodItem .prodDetail h3,
+.serviceContainer .serviceWrap p span,
+.socialBox p,
+.specScheme .offerWrap .offerInfo h4,
+.specScheme .specschemeInfo h4,
+.success h3,
+.success h4,
+.success ul li,
+.title,
+header .welcomeBox .userName,
+p.idsasection {
+    text-transform: uppercase;
+}
+
+.btn,
+.itemDetail h2,
+.loginForm h2,
+.loginForm ul li label,
+.title,
+b,
+footer a,
+footer small {
+    font-weight: 400;
+}
+
+.txtCenter {
+    text-align: center;
+    color: green;
+    width: 100%;
+    margin-left: 16px;
+
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+a {
+    background-color: transparent;
+}
+
+
+a:-webkit-any-link {
+    /* color: -webkit-link; */
+    cursor: pointer;
+
+}
+
+@media (min-width: 768px) {
+    .newSchemeBtn {
+        padding: 0 40px;
+        text-align: left;
+    }
+}
+
+.newSchemeBtn {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    padding: 0 5px;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+
+::selection {
+    color: #fff;
+    background: #58c4eb;
+}
+
+.redColor {
+
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.hovers {
+    color: rgba(196, 21, 21, 0);
+    background:
+        linear-gradient(90deg, #1ada1a 50%, #000 0) var(--_p, 100%)/200% no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    transition: .4s;
+
+}
+
+.hovers:hover {
+    --_p: 0%;
+}
+
+redColor:hover {
+    background-color: yellow;
+}
+
+
+.blueColor {
+    background: #40a6d9;
+    color: #fff;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .newSchemeBtn .btn {
+        display: inline-block;
+        height: 30px;
+        line-height: 28px;
+        padding: 0 5px;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .newSchemeBtn .btn {
+        margin: 0 6px 8px 0;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .newSchemeBtn .btn {
+        margin: 0 6px 8px 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .prodSec {
+        padding: 0 2px 0 2px;
+        margin: 4px 0 0 0;
+    }
+}
+
+
+.prodSec {
+    width: 100%;
+    margin: 10px 0 0;
+    position: relative;
+    padding: 0 10px;
+    display: block;
+}
+
+.prodDesc {
+    left: 20px;
+    width: calc(100% - 100px);
+}
+
+.prodDesc,
+.prodSec .goBtn {
+    position: absolute;
+    bottom: 5px;
+}
+
+@media (min-width: 768px) {
+    .prodSec {
+        padding: 0 2px px 0 2px;
+        margin: 4px 0 0 0;
+    }
+}
+
+
+.prodSec {
+    width: 100%;
+    margin: 5px 0 0;
+    position: relative;
+    padding: 0 0px;
+    display: block;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Oswald:wght@600&family=Yanone+Kaffeesatz:wght@300&display=swap');
+
+/* @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Yanone+Kaffeesatz:wght@300&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Yanone+Kaffeesatz:wght@300&display=swap'); */
+.text_fontss {
+    /* font-family: 'Yanone Kaffeesatz', sans-serif; */
+    /* font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: 'Cormorant Garamond', serif; */
+    /* font-size: 10px; */
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    color: #4f4c4d;
+    /* line-height: 1.02857143; */
+    background-color: whitesmoke;
+    /* font-weight: 400; */
+    font: 15px monospace;
+    font-family: 'Oswald', sans-serif;
+    /* font-family: 'Cormorant Garamond', serif; */
+
+    /* font-family: 'Yanone Kaffeesatz', sans-serif; */
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Oswald:wght@600&family=Yanone+Kaffeesatz:wght@300&display=swap');
+
+
+.text_fontsssssss {
+
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    color: #4f4c4d;
+
+    
+
+    font: 15px monospace;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+#ContentPlaceHolder1_ReachOut1_txtMessage{
+  
+    width: 100%;
+    height: 70px;
+}
